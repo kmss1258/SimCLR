@@ -1,6 +1,6 @@
 # activate pip / conda environment first
 
-# Train SimCLR model
+# Train SimCLR_custom model
 python main.py
 
 # Train linear model and run test

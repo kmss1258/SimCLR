@@ -6,7 +6,7 @@ import pytorch_lightning as pl
 from pytorch_lightning import Trainer, LightningModule
 
 
-# SimCLR
+# SimCLR_custom
 from simclr import SimCLR
 from simclr.modules import NT_Xent, get_resnet
 from simclr.modules.transformations import TransformsSimCLR
@@ -74,7 +74,7 @@ class ContrastiveLearning(LightningModule):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="SimCLR")
+    parser = argparse.ArgumentParser(description="SimCLR_custom")
 
     config = yaml_config_hook("./config/config.yaml")
     for k, v in config.items():

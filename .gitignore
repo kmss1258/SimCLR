@@ -7,3 +7,12 @@ build/
 dist/
 simclr.egg-info
 lightning_logs/
+dataset/
+.cache/
+utils/
+result_model/
+utils/model_edge_detection.pt
+utils/object_discovery.pt
+utils/u2net.pt
+*.pt
+*.pth

@@ -13,7 +13,7 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = "simclr"
-DESCRIPTION = "PyTorch implementation of SimCLR: A Simple Framework for Contrastive Learning of Visual Representations by T. Chen et al."
+DESCRIPTION = "PyTorch implementation of SimCLR_custom: A Simple Framework for Contrastive Learning of Visual Representations by T. Chen et al."
 URL = "https://github.com/spijkervet/SimCLR"
 EMAIL = "janne.spijkervet@gmail.com"
 AUTHOR = "Janne Spijkervet"
